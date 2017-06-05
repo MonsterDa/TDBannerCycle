@@ -57,7 +57,7 @@ NSString *const cellID =  @"bannerCell";
     
     
     if (self.isLoop) {
-        _itemCount = self.bannerDataArray.count *1000;
+        _itemCount = self.bannerDataArray.count *100;
     }else{
         _itemCount = self.bannerDataArray.count;
     }
@@ -113,7 +113,6 @@ NSString *const cellID =  @"bannerCell";
 }
 - (void)changePageCurrent{
     int current = [self pageControlIndexWithCurrentCellIndex:[self currentIndex]];
-    
     self.pageControl.currentPage = current;
 }
 - (void)scrollToIndex:(int)nextIndex{
@@ -149,7 +148,7 @@ NSString *const cellID =  @"bannerCell";
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     TDBannerCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellID forIndexPath:indexPath];
     
-    NSInteger index = _pageControl.currentPage;
+    NSInteger index = [self pageControlIndexWithCurrentCellIndex:indexPath.item];
     
     NSString *imageString = self.bannerDataArray[index];
     if ([imageString hasPrefix:@"http"]) {
@@ -174,12 +173,42 @@ NSString *const cellID =  @"bannerCell";
         [_bannerView scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:targetIndex inSection:0] atScrollPosition:UICollectionViewScrollPositionNone animated:NO];
     }
     
-    int width = self.bannerDataArray.count *10;
+    int width = (int)self.bannerDataArray.count *10;
     
     self.pageControl.frame = CGRectMake(30, self.TDHeight -20, width, 10);
     self.pageControl.numberOfPages = self.bannerDataArray.count;
-    self.pageControl.currentPage = 1;
+//    self.pageControl.currentPage = 1;
 }
+#pragma mark - UIScrollViewDelegate
+
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    
+    if (!self.bannerDataArray.count) return;
+    int itemIndex = [self currentIndex];
+    int indexOnPageControl = [self pageControlIndexWithCurrentCellIndex:itemIndex];
+    
+
+    UIPageControl *pageControl = (UIPageControl *)_pageControl;
+    pageControl.currentPage = indexOnPageControl;
+
+}
+
+
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView{
+    if (self.isLoop) {
+        [self invalidateTimer];
+    }
+}
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate{
+    if (self.isLoop) {
+        [self setupTimer];
+    }
+}
+
+
+    
+
 #pragma mark - 懒加载
 - (UICollectionView *)bannerView{
     if (!_bannerView) {
