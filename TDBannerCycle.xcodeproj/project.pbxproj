@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		808D86BB03E7D495CEEF5557 /* libPods-TDBannerCycle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DCF96684F1544AC877113A0 /* libPods-TDBannerCycle.a */; };
+		DB2300261EE0F86D0016A4F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2300251EE0F86D0016A4F7 /* main.m */; };
+		DB2300291EE0F86D0016A4F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2300281EE0F86D0016A4F7 /* AppDelegate.m */; };
+		DB23002C1EE0F86D0016A4F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB23002B1EE0F86D0016A4F7 /* ViewController.m */; };
+		DB23002F1EE0F86D0016A4F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB23002D1EE0F86D0016A4F7 /* Main.storyboard */; };
+		DB2300311EE0F86D0016A4F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2300301EE0F86D0016A4F7 /* Assets.xcassets */; };
+		DB2300341EE0F86D0016A4F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2300321EE0F86D0016A4F7 /* LaunchScreen.storyboard */; };
+		DB23003F1EE0F86D0016A4F7 /* TDBannerCycleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB23003E1EE0F86D0016A4F7 /* TDBannerCycleTests.m */; };
+		DB23004A1EE0F86D0016A4F7 /* TDBannerCycleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2300491EE0F86D0016A4F7 /* TDBannerCycleUITests.m */; };
+		DB23005A1EE0FAB00016A4F7 /* TDBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2300591EE0FAB00016A4F7 /* TDBannerView.m */; };
+		DB23005D1EE0FDD80016A4F7 /* TDBannerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB23005C1EE0FDD80016A4F7 /* TDBannerCollectionViewCell.m */; };
+		DB2300601EE1007F0016A4F7 /* UIView+TDLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB23005F1EE1007F0016A4F7 /* UIView+TDLocation.m */; };
+		DB2300621EE113C00016A4F7 /* place.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2300611EE113C00016A4F7 /* place.png */; };
+		DB23006C1EE4F4BE0016A4F7 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2300651EE4F4BE0016A4F7 /* TAAbstractDotView.m */; };
+		DB23006D1EE4F4BE0016A4F7 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2300671EE4F4BE0016A4F7 /* TAAnimatedDotView.m */; };
+		DB23006E1EE4F4BE0016A4F7 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2300691EE4F4BE0016A4F7 /* TADotView.m */; };
+		DB23006F1EE4F4BE0016A4F7 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DB23006B1EE4F4BE0016A4F7 /* TAPageControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB23003B1EE0F86D0016A4F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2300191EE0F86D0016A4F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2300201EE0F86D0016A4F7;
+			remoteInfo = TDBannerCycle;
+		};
+		DB2300461EE0F86D0016A4F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2300191EE0F86D0016A4F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2300201EE0F86D0016A4F7;
+			remoteInfo = TDBannerCycle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DCF96684F1544AC877113A0 /* libPods-TDBannerCycle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TDBannerCycle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FBE4231ABD6D4C217330AFE /* Pods-TDBannerCycle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDBannerCycle.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDBannerCycle/Pods-TDBannerCycle.release.xcconfig"; sourceTree = "<group>"; };
+		8D14255E6459EA59B0F32A73 /* Pods-TDBannerCycle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDBannerCycle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDBannerCycle/Pods-TDBannerCycle.debug.xcconfig"; sourceTree = "<group>"; };
+		DB2300211EE0F86D0016A4F7 /* TDBannerCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDBannerCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2300251EE0F86D0016A4F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB2300271EE0F86D0016A4F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB2300281EE0F86D0016A4F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB23002A1EE0F86D0016A4F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB23002B1EE0F86D0016A4F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB23002E1EE0F86D0016A4F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB2300301EE0F86D0016A4F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB2300331EE0F86D0016A4F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB2300351EE0F86D0016A4F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB23003A1EE0F86D0016A4F7 /* TDBannerCycleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDBannerCycleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB23003E1EE0F86D0016A4F7 /* TDBannerCycleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDBannerCycleTests.m; sourceTree = "<group>"; };
+		DB2300401EE0F86D0016A4F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2300451EE0F86D0016A4F7 /* TDBannerCycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDBannerCycleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2300491EE0F86D0016A4F7 /* TDBannerCycleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDBannerCycleUITests.m; sourceTree = "<group>"; };
+		DB23004B1EE0F86D0016A4F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2300581EE0FAB00016A4F7 /* TDBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDBannerView.h; sourceTree = "<group>"; };
+		DB2300591EE0FAB00016A4F7 /* TDBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDBannerView.m; sourceTree = "<group>"; };
+		DB23005B1EE0FDD80016A4F7 /* TDBannerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDBannerCollectionViewCell.h; sourceTree = "<group>"; };
+		DB23005C1EE0FDD80016A4F7 /* TDBannerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDBannerCollectionViewCell.m; sourceTree = "<group>"; };
+		DB23005E1EE1007F0016A4F7 /* UIView+TDLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TDLocation.h"; sourceTree = "<group>"; };
+		DB23005F1EE1007F0016A4F7 /* UIView+TDLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TDLocation.m"; sourceTree = "<group>"; };
+		DB2300611EE113C00016A4F7 /* place.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = place.png; sourceTree = "<group>"; };
+		DB2300641EE4F4BE0016A4F7 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		DB2300651EE4F4BE0016A4F7 /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		DB2300661EE4F4BE0016A4F7 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		DB2300671EE4F4BE0016A4F7 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		DB2300681EE4F4BE0016A4F7 /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		DB2300691EE4F4BE0016A4F7 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		DB23006A1EE4F4BE0016A4F7 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		DB23006B1EE4F4BE0016A4F7 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB23001E1EE0F86D0016A4F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808D86BB03E7D495CEEF5557 /* libPods-TDBannerCycle.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2300371EE0F86D0016A4F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2300421EE0F86D0016A4F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B6A2A2BF2CBC3235AABA71D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DCF96684F1544AC877113A0 /* libPods-TDBannerCycle.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCAA2EB7E3986277E61FC4EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D14255E6459EA59B0F32A73 /* Pods-TDBannerCycle.debug.xcconfig */,
+				6FBE4231ABD6D4C217330AFE /* Pods-TDBannerCycle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB2300181EE0F86D0016A4F7 = {
+			isa = PBXGroup;
+			children = (
+				DB2300231EE0F86D0016A4F7 /* TDBannerCycle */,
+				DB23003D1EE0F86D0016A4F7 /* TDBannerCycleTests */,
+				DB2300481EE0F86D0016A4F7 /* TDBannerCycleUITests */,
+				DB2300221EE0F86D0016A4F7 /* Products */,
+				BCAA2EB7E3986277E61FC4EA /* Pods */,
+				8B6A2A2BF2CBC3235AABA71D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB2300221EE0F86D0016A4F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB2300211EE0F86D0016A4F7 /* TDBannerCycle.app */,
+				DB23003A1EE0F86D0016A4F7 /* TDBannerCycleTests.xctest */,
+				DB2300451EE0F86D0016A4F7 /* TDBannerCycleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB2300231EE0F86D0016A4F7 /* TDBannerCycle */ = {
+			isa = PBXGroup;
+			children = (
+				DB2300631EE4F4BE0016A4F7 /* PageControl */,
+				DB2300571EE0FA850016A4F7 /* TDBanner */,
+				DB2300271EE0F86D0016A4F7 /* AppDelegate.h */,
+				DB2300281EE0F86D0016A4F7 /* AppDelegate.m */,
+				DB23002A1EE0F86D0016A4F7 /* ViewController.h */,
+				DB23002B1EE0F86D0016A4F7 /* ViewController.m */,
+				DB23002D1EE0F86D0016A4F7 /* Main.storyboard */,
+				DB2300301EE0F86D0016A4F7 /* Assets.xcassets */,
+				DB2300321EE0F86D0016A4F7 /* LaunchScreen.storyboard */,
+				DB2300351EE0F86D0016A4F7 /* Info.plist */,
+				DB2300241EE0F86D0016A4F7 /* Supporting Files */,
+			);
+			path = TDBannerCycle;
+			sourceTree = "<group>";
+		};
+		DB2300241EE0F86D0016A4F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB2300251EE0F86D0016A4F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB23003D1EE0F86D0016A4F7 /* TDBannerCycleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB23003E1EE0F86D0016A4F7 /* TDBannerCycleTests.m */,
+				DB2300401EE0F86D0016A4F7 /* Info.plist */,
+			);
+			path = TDBannerCycleTests;
+			sourceTree = "<group>";
+		};
+		DB2300481EE0F86D0016A4F7 /* TDBannerCycleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB2300491EE0F86D0016A4F7 /* TDBannerCycleUITests.m */,
+				DB23004B1EE0F86D0016A4F7 /* Info.plist */,
+			);
+			path = TDBannerCycleUITests;
+			sourceTree = "<group>";
+		};
+		DB2300571EE0FA850016A4F7 /* TDBanner */ = {
+			isa = PBXGroup;
+			children = (
+				DB2300611EE113C00016A4F7 /* place.png */,
+				DB2300581EE0FAB00016A4F7 /* TDBannerView.h */,
+				DB2300591EE0FAB00016A4F7 /* TDBannerView.m */,
+				DB23005B1EE0FDD80016A4F7 /* TDBannerCollectionViewCell.h */,
+				DB23005C1EE0FDD80016A4F7 /* TDBannerCollectionViewCell.m */,
+				DB23005E1EE1007F0016A4F7 /* UIView+TDLocation.h */,
+				DB23005F1EE1007F0016A4F7 /* UIView+TDLocation.m */,
+			);
+			path = TDBanner;
+			sourceTree = "<group>";
+		};
+		DB2300631EE4F4BE0016A4F7 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				DB2300641EE4F4BE0016A4F7 /* TAAbstractDotView.h */,
+				DB2300651EE4F4BE0016A4F7 /* TAAbstractDotView.m */,
+				DB2300661EE4F4BE0016A4F7 /* TAAnimatedDotView.h */,
+				DB2300671EE4F4BE0016A4F7 /* TAAnimatedDotView.m */,
+				DB2300681EE4F4BE0016A4F7 /* TADotView.h */,
+				DB2300691EE4F4BE0016A4F7 /* TADotView.m */,
+				DB23006A1EE4F4BE0016A4F7 /* TAPageControl.h */,
+				DB23006B1EE4F4BE0016A4F7 /* TAPageControl.m */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB2300201EE0F86D0016A4F7 /* TDBannerCycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB23004E1EE0F86D0016A4F7 /* Build configuration list for PBXNativeTarget "TDBannerCycle" */;
+			buildPhases = (
+				F8BEACC61DB46DB9CAE863E7 /* [CP] Check Pods Manifest.lock */,
+				DB23001D1EE0F86D0016A4F7 /* Sources */,
+				DB23001E1EE0F86D0016A4F7 /* Frameworks */,
+				DB23001F1EE0F86D0016A4F7 /* Resources */,
+				B3AA80A07C78A3A3767843C5 /* [CP] Embed Pods Frameworks */,
+				6404E966D88FCE875FCCBD68 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDBannerCycle;
+			productName = TDBannerCycle;
+			productReference = DB2300211EE0F86D0016A4F7 /* TDBannerCycle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB2300391EE0F86D0016A4F7 /* TDBannerCycleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2300511EE0F86D0016A4F7 /* Build configuration list for PBXNativeTarget "TDBannerCycleTests" */;
+			buildPhases = (
+				DB2300361EE0F86D0016A4F7 /* Sources */,
+				DB2300371EE0F86D0016A4F7 /* Frameworks */,
+				DB2300381EE0F86D0016A4F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB23003C1EE0F86D0016A4F7 /* PBXTargetDependency */,
+			);
+			name = TDBannerCycleTests;
+			productName = TDBannerCycleTests;
+			productReference = DB23003A1EE0F86D0016A4F7 /* TDBannerCycleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB2300441EE0F86D0016A4F7 /* TDBannerCycleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2300541EE0F86D0016A4F7 /* Build configuration list for PBXNativeTarget "TDBannerCycleUITests" */;
+			buildPhases = (
+				DB2300411EE0F86D0016A4F7 /* Sources */,
+				DB2300421EE0F86D0016A4F7 /* Frameworks */,
+				DB2300431EE0F86D0016A4F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB2300471EE0F86D0016A4F7 /* PBXTargetDependency */,
+			);
+			name = TDBannerCycleUITests;
+			productName = TDBannerCycleUITests;
+			productReference = DB2300451EE0F86D0016A4F7 /* TDBannerCycleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB2300191EE0F86D0016A4F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "卢腾达";
+				TargetAttributes = {
+					DB2300201EE0F86D0016A4F7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					DB2300391EE0F86D0016A4F7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB2300201EE0F86D0016A4F7;
+					};
+					DB2300441EE0F86D0016A4F7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB2300201EE0F86D0016A4F7;
+					};
+				};
+			};
+			buildConfigurationList = DB23001C1EE0F86D0016A4F7 /* Build configuration list for PBXProject "TDBannerCycle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB2300181EE0F86D0016A4F7;
+			productRefGroup = DB2300221EE0F86D0016A4F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB2300201EE0F86D0016A4F7 /* TDBannerCycle */,
+				DB2300391EE0F86D0016A4F7 /* TDBannerCycleTests */,
+				DB2300441EE0F86D0016A4F7 /* TDBannerCycleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB23001F1EE0F86D0016A4F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2300341EE0F86D0016A4F7 /* LaunchScreen.storyboard in Resources */,
+				DB2300621EE113C00016A4F7 /* place.png in Resources */,
+				DB2300311EE0F86D0016A4F7 /* Assets.xcassets in Resources */,
+				DB23002F1EE0F86D0016A4F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2300381EE0F86D0016A4F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2300431EE0F86D0016A4F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6404E966D88FCE875FCCBD68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDBannerCycle/Pods-TDBannerCycle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3AA80A07C78A3A3767843C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDBannerCycle/Pods-TDBannerCycle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8BEACC61DB46DB9CAE863E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB23001D1EE0F86D0016A4F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB23006D1EE4F4BE0016A4F7 /* TAAnimatedDotView.m in Sources */,
+				DB23006E1EE4F4BE0016A4F7 /* TADotView.m in Sources */,
+				DB23002C1EE0F86D0016A4F7 /* ViewController.m in Sources */,
+				DB23005D1EE0FDD80016A4F7 /* TDBannerCollectionViewCell.m in Sources */,
+				DB2300291EE0F86D0016A4F7 /* AppDelegate.m in Sources */,
+				DB23006C1EE4F4BE0016A4F7 /* TAAbstractDotView.m in Sources */,
+				DB23005A1EE0FAB00016A4F7 /* TDBannerView.m in Sources */,
+				DB23006F1EE4F4BE0016A4F7 /* TAPageControl.m in Sources */,
+				DB2300261EE0F86D0016A4F7 /* main.m in Sources */,
+				DB2300601EE1007F0016A4F7 /* UIView+TDLocation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2300361EE0F86D0016A4F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB23003F1EE0F86D0016A4F7 /* TDBannerCycleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2300411EE0F86D0016A4F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB23004A1EE0F86D0016A4F7 /* TDBannerCycleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB23003C1EE0F86D0016A4F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB2300201EE0F86D0016A4F7 /* TDBannerCycle */;
+			targetProxy = DB23003B1EE0F86D0016A4F7 /* PBXContainerItemProxy */;
+		};
+		DB2300471EE0F86D0016A4F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB2300201EE0F86D0016A4F7 /* TDBannerCycle */;
+			targetProxy = DB2300461EE0F86D0016A4F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB23002D1EE0F86D0016A4F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB23002E1EE0F86D0016A4F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB2300321EE0F86D0016A4F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2300331EE0F86D0016A4F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB23004C1EE0F86D0016A4F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB23004D1EE0F86D0016A4F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB23004F1EE0F86D0016A4F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D14255E6459EA59B0F32A73 /* Pods-TDBannerCycle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TDBannerCycle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lutengda.TDBannerCycle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB2300501EE0F86D0016A4F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FBE4231ABD6D4C217330AFE /* Pods-TDBannerCycle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TDBannerCycle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lutengda.TDBannerCycle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB2300521EE0F86D0016A4F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TDBannerCycleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lutengda.TDBannerCycleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDBannerCycle.app/TDBannerCycle";
+			};
+			name = Debug;
+		};
+		DB2300531EE0F86D0016A4F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TDBannerCycleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lutengda.TDBannerCycleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDBannerCycle.app/TDBannerCycle";
+			};
+			name = Release;
+		};
+		DB2300551EE0F86D0016A4F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TDBannerCycleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lutengda.TDBannerCycleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TDBannerCycle;
+			};
+			name = Debug;
+		};
+		DB2300561EE0F86D0016A4F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TDBannerCycleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lutengda.TDBannerCycleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TDBannerCycle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB23001C1EE0F86D0016A4F7 /* Build configuration list for PBXProject "TDBannerCycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB23004C1EE0F86D0016A4F7 /* Debug */,
+				DB23004D1EE0F86D0016A4F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB23004E1EE0F86D0016A4F7 /* Build configuration list for PBXNativeTarget "TDBannerCycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB23004F1EE0F86D0016A4F7 /* Debug */,
+				DB2300501EE0F86D0016A4F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2300511EE0F86D0016A4F7 /* Build configuration list for PBXNativeTarget "TDBannerCycleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2300521EE0F86D0016A4F7 /* Debug */,
+				DB2300531EE0F86D0016A4F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2300541EE0F86D0016A4F7 /* Build configuration list for PBXNativeTarget "TDBannerCycleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2300551EE0F86D0016A4F7 /* Debug */,
+				DB2300561EE0F86D0016A4F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB2300191EE0F86D0016A4F7 /* Project object */;
+}
