@@ -31,6 +31,7 @@
     TDBannerView *banner = [TDBannerView bannerWithForm:CGRectMake(0, 20, self.view.TDWidth, 200) iamgeURLStringGroup:imageArray];
     
     
+    
     [self.view addSubview:banner];
 }
 

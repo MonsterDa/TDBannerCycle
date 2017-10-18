@@ -13,6 +13,9 @@
 - (instancetype)initWithFrame:(CGRect)frame{
     
     if (self = [super initWithFrame:frame]) {
+        self.layer.masksToBounds = YES;
+        self.layer.cornerRadius = 5;
+        
         [self addSubview:self.imageView];
     }
     return self;

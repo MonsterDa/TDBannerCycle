@@ -236,6 +236,7 @@ NSString *const cellID =  @"bannerCell";
         _flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
         
         _flowLayout.itemSize = CGSizeMake(self.TDWidth, self.TDHeight);
+        
     }
     return _flowLayout;
 }
