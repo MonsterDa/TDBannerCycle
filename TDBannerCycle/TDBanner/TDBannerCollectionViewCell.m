@@ -16,6 +16,9 @@
         self.layer.masksToBounds = YES;
         self.layer.cornerRadius = 5;
         
+        
+        
+        
         [self addSubview:self.imageView];
     }
     return self;
