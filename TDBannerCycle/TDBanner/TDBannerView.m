@@ -152,7 +152,7 @@ NSString *const cellID =  @"bannerCell";
     
     NSString *imageString = self.bannerDataArray[index];
     if ([imageString hasPrefix:@"http"]) {
-        UIImage *palceImage = [UIImage imageNamed:@"place"];
+        UIImage *palceImage = [UIImage imageNamed:@"place.png"];
         NSURL *imageURL = [NSURL URLWithString:imageString];
         [cell.imageView sd_setImageWithURL:imageURL placeholderImage:palceImage];
         
@@ -235,7 +235,12 @@ NSString *const cellID =  @"bannerCell";
         _flowLayout.minimumLineSpacing = 0;
         _flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
         
-        _flowLayout.itemSize = CGSizeMake(self.TDWidth, self.TDHeight);
+        _flowLayout.itemSize = CGSizeMake(self.TDWidth-50, self.TDHeight-100);
+        _flowLayout.sectionInset = UIEdgeInsetsMake(0, 30, 0, 30);
+        //定义每个UICollectionView 横向的间距
+        _flowLayout.minimumLineSpacing = 10;
+        //定义每个UICollectionView 纵向的间距
+//        _flowLayout.minimumInteritemSpacing = 10;
         
     }
     return _flowLayout;
